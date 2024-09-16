@@ -1,4 +1,4 @@
-import React, { useEffect, useState, DragEvent, KeyboardEvent } from "react";
+import React, { useEffect, useState, DragEvent } from "react";
 import DataCards from "./DataCards";
 import Overlay from "./Overlay";
 import { useDispatch, useSelector } from "react-redux";
