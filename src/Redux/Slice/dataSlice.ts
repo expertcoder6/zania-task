@@ -50,7 +50,7 @@ export const getBankData = createAsyncThunk<BankDataItem[], void>(
   "GET/DATA",
   async () => {
     try {
-      const response = await fetch("http://localhost:8000/banks");
+      const response = await fetch("../../db.json");
       const data: BankDataItem[] = await response.json();
       return data;
     } catch (error) {
